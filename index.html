@@ -6,10 +6,10 @@
     <title>Tic Tac Toe game</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- FONTS -->
-     <link href="https://fonts.googleapis.com/css?family=Lobster|Rajdhani" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
 
     <!-- BOOTSTRAP 4.0.0 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -18,7 +18,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
   </head>
 <body>
-
+  <div class="container w-50 h-50 align-items-center">
+    <div class="row justify-content-center align-items-stretch text-center">
+      <div class="col-4 field border-right border-bottom" onClick="putDownMark(event);" id="f0"></div>
+      <div class="col-4 field border-left border-bottom border-right" onClick="putDownMark(event);" id="f1"></div>
+      <div class="col-4 field border-left border-bottom" onClick="putDownMark(event);" id="f2"></div>
+      <div class="col-4 field border-top border-right border-bottom" onClick="putDownMark(event);" id="f3"></div>
+      <div class="col-4 field border-top border-right border-bottom border-left" onClick="putDownMark(event);" id="f4"></div>
+      <div class="col-4 field border-top border-bottom border-left" onClick="putDownMark(event);" id="f5"></div>
+      <div class="col-4 field border-top border-right" onClick="putDownMark(event);" id="f6"></div>
+      <div class="col-4 field border-left border-top border-right" onClick="putDownMark(event);" id="f7"></div>
+      <div class="col-4 field border-left border-top" onClick="putDownMark(event);" id="f8"></div>
+    </div>
+  </div>
   <!-- JQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 

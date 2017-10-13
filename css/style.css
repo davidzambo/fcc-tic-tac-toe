@@ -1,0 +1,22 @@
+*{border: 1px solid black;}
+html,body{height: 100%; font-family: 'Montserrat', sans-serif!important;}
+.field{
+  font-family: 'Fredoka One', sans-serif!important;
+  /*color: #fff;*/
+  font-size: 20vh;
+  min-height: 25vh!important;
+  /*font-weight: bold;*/
+}
+.huPlayer{
+  color: red;
+  text-shadow: -5px 0  red, 0 5px red, 5px 0 red, 0 -5px red;
+}
+.aiPlayer{
+  color: blue;
+  text-shadow: -5px 0 blue, 0 5px blue, 5px 0 blue, 0 -5px blue;
+}
+
+.border-left {border-left: 2px solid #333;}
+.border-right {border-right: 2px solid #333;}
+.border-top {border-top: 2px solid #333;}
+.border-bottom {border-bottom: 2px solid #333;}
